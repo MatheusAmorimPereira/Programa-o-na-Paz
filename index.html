@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="logo.jpeg" type="image/x-icon" />
+    <title>Matheus Amorim Pereira | Desenvolvedor</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">Programação na Paz</div>
+      <nav id="menu">
+        <a href="#home">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#empresa">Empresa</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <div class="menu-btn" onclick="toggleMenu()">☰</div>
+    </header>
+
+    <section class="hero" id="home">
+      <div>
+        <h1>Transformando ideias em soluções digitais</h1>
+        <p>Sites, sistemas e aplicativos profissionais</p>
+        <a class="btn" href="https://wa.me/5511937274243">Fale no WhatsApp</a>
+      </div>
+    </section>
+
+    <section id="sobre">
+      <div class="container sobre">
+        <div>
+          <h2 class="section-title">Sobre Mim</h2>
+          <p>
+            Meu nome é <b>Matheus Amorim Pereira</b>, tenho 17 anos, moro em São
+            Paulo e estou finalizando meus estudos. Já atuo como empreendedor
+            criando soluções digitais modernas com foco em resultados.
+          </p>
+        </div>
+        <img
+          src="https://images.unsplash.com/photo-1518770660439-4636190af475"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <section id="empresa">
+      <div class="container">
+        <h2 class="section-title">Empresa</h2>
+        <p>
+          Desenvolvemos sites, sistemas e apps mobile com tecnologia moderna,
+          performance e design profissional.
+        </p>
+      </div>
+    </section>
+
+    <section id="servicos">
+      <div class="container">
+        <h2 class="section-title">Serviços</h2>
+        <div class="grid">
+          <div class="card">Criação de Sites</div>
+          <div class="card">Aplicativos Mobile</div>
+          <div class="card">Sistemas Web</div>
+          <div class="card">Landing Pages</div>
+          <div class="card">Banco de Dados</div>
+          <div class="card">Otimização</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <div class="container">
+        <h2 class="section-title">Contato</h2>
+        <form id="form">
+          <input type="text" placeholder="Nome" required />
+          <input type="email" placeholder="Email" required />
+          <textarea placeholder="Mensagem" required></textarea>
+          <button class="btn">Enviar</button>
+        </form>
+
+        <br />
+        <center>
+          <p>Email: matheussamorinpereira@gmail.com</p>
+          <p>WhatsApp: 11937274243</p>
+        </center>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 - Matheus Amorim Pereira</p>
+    </footer>
+
+    <button class="topo" onclick="topo()">↑</button>
+    <a class="whatsapp" href="https://wa.me/5511937274243">💬</a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
